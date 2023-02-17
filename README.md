@@ -1,5 +1,5 @@
 # ds1000z-scripts
-Collection of python scripts for communicating with Rigol DS1000Z series.
+Collection of python scripts for communicating with Rigol DS1000Z series. USB is used by default, see wave.py for Ethernet example. More info can be found [here](https://github.com/lujji/ds1000z-scripts).
 
 ## Dependencies
 ```
