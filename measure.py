@@ -3,7 +3,7 @@ import pyvisa, time
 print('opening scope..')
 rm = pyvisa.ResourceManager('@py')
 for i in rm.list_resources():
-    if 'USB' in i:
+    if 'DS1Z' in i:
         rig = rm.open_resource(i)
         break
 else:

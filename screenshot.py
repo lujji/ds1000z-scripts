@@ -4,7 +4,7 @@ import sys, os, io
 rm = pyvisa.ResourceManager('@py')
 
 for r in rm.list_resources():
-    if 'USB' in r:
+    if 'DS1Z' in r:
         print('Connecting over USB')
         rig = rm.open_resource(r)
         break

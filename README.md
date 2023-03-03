@@ -15,5 +15,5 @@ pip install numpy scipy matplotlib
 - screenshot.py - takes a screenshot
 - wave.py - real-time-plot using matplotlib
 - wave_pyqt.py - real-time plot using qt (requires `pyqtgraph`)
-- power_analysis.py - performs a number of single captures, uses deep memory
+- power_analysis.py - performs a number of single captures, uses deep memory; mem-depth has to be set manually on the scope
 - align.py - aligns traces captured with previous script

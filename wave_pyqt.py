@@ -10,7 +10,7 @@ def scope(curve, event):
 
     def rig_open():
         for r in rm.list_resources():
-            if 'USB' in r:
+            if 'DS1Z' in r:
                 print('Connecting over USB')
                 rig = rm.open_resource(r)
                 break
